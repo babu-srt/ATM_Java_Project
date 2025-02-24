@@ -1,0 +1,70 @@
+3 Friends A<B<C going to goa-> via bus->available seats (5) and persons are 6
+.............
+pelase enter your name
+->A
+please enter no sear
+->2
+contrats seat are booked.....
+
+..........
+
+pelase enter your name
+->B
+please enter no sear
+->2
+congrates seat are booked.....
+
+...................
+pelase enter your name
+->B
+please enter no sear
+->2
+Seats are not avialanle try again..........
+
+                      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Multithreding : Is a process to execute multiple thread at the same time without *dependency* of other thread is called multithrading
+
+Thread : Is a pre-define class which is available in lang package
+        Thread is basic or smallest unit of CPU and it is well known for independent Execution
+
+        There are 2 ways to create thread in java
+        1) Extending Thread class
+        2) Implimenting Runable Interface
+1: Process based multithreding
+  -Multiple CPU
+  -Multiple application
+  -Multiple function in single applicaiton
+2: tread based multithreding
+   -Multiple application
+   -Multiple function in single applicaiton
+   -Multiple users in single function
+
+
+                        ***********************   Synchronize ******************************
+
+  - Synchronization in a tech through which we can control multiple threads or among the number of thread
+  - Only one thread will enter in syncronized area
+  - The main perpose of synchronization is to overcome the problem of multithreding
+  - When multiple threas are trying to access same resources at the same time on that situation it may provide wrong reult or corrupted data
+  - Synchronization is broadly classified in 2 categories 1)method level 2)block level(beat approach)
+
+  Multithreding is very good when ever we want to complete our task as soon as possible but in some situation it may provide some wrong result
+  this type of situation occur when same resoure is accesible by multiple thred at the same time
+
+
+
+
+                         ************************ Method Level Synchronization ***********************
+
+- In the Java every object have a only one lock and this lock can be given to only one thread at allthe time
+- In Method level Synchronization the entire method is Synchronized so only one thread will enter the Synchronized
+  are and remaining all the thread will wait at method level
+
+
+                         ************************ Block Level Synchronization ***********************
+
+- In Method level Synchronization the entire method is not get Synchronize only one part of method sunchronize
+  we have to enclose those fe lines in synchronize block
+
+
